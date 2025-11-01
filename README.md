@@ -80,6 +80,7 @@ Open a terminal if it’s not already visible.
    ```bash
    gcloud config set run/region europe-west1
    ```
+https://github.com/user-attachments/assets/337c923f-82e5-4ac3-90ea-c44b6ce1bc52
 
 ## 4. Get the Starter Repository
 
@@ -124,6 +125,8 @@ workshop-gcp-intent-to-agents ➤ tree
 └── ollama-backend
     └── Dockerfile           # Container definition for the Gemma backend service
 ```
+
+https://github.com/user-attachments/assets/6671b9a3-39f6-4228-a7fb-b2a4a8179875
 
 ## 5. Architecture Overview
 
@@ -195,6 +198,8 @@ export OLLAMA_URL=$(gcloud run services describe ollama-backend \
     --format='value(status.url)')
 ```
 
+https://github.com/user-attachments/assets/3a74f63a-0b55-485c-9703-868aa48ce035
+
 ## 7. Deploy the ADK Agent
 
 Navigate into the agent directory
@@ -256,6 +261,7 @@ Alternatively, you can also proxy the Cloud Run Service to access on http://127.
 gcloud run services proxy adk-intent-agent --port=8080
 ```
 
+https://github.com/user-attachments/assets/2c2ce37d-9726-4b85-b7d8-8b89be6dc44b
 
 ## 8. Load Testing
 
@@ -290,6 +296,8 @@ Delete resources to avoid charges:
 gcloud run services delete adk-intent-agent --region=europe-west1
 gcloud run services delete ollama-backend --region=europe-west1
 ```
+
+https://github.com/user-attachments/assets/980a3f14-bab9-4647-9df6-8d2316a1de19
 
 ## 10. Conclusion
 
