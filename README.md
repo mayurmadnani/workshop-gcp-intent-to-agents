@@ -24,6 +24,18 @@
                                   
 ```
 
+> 🧠 Intent-to-Agent Implementations
+
+
+| Agent Name      | Purpose         | Description     | Agent Branch                        |
+|-----------------|-----------------|-----------------|-----------------------------|
+| KubeCommander   | Kubernetes CLI Generator         | Translates intent into kubectl commands for cluster operations.             | [KubeCommander](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/KubeCommander) | 
+| NoteNinja       | Markdown Generator               | Transforms prompts into clean, structured Markdown content.                 | [NoteNinja](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/NoteNinja) | 
+| TicketTuner     | Jira Ticket Generator            | Crafts structured Jira tickets from task descriptions or bug reports.       | [TicketTuner](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/TicketTuner) | 
+| SQLSense        | Text to SQL                      | Converts natural language into SQL queries for data exploration.            | [SQLSense](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/SQLSense) | 
+| PatternPilot    | Regex Generator                  | Converts natural language patterns into regular expressions.                | [PatternPilot](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/PatternPilot) | 
+
+
 ## 1. Introduction
 
 In this lab, you will deploy a production-ready **Agent Development Kit (ADK)** agent connected to a Gemma-family model backend on **Google Cloud Run**. The focus is on critical deployment patterns: setting up Cloud Run services, integrating model backends with ADK agents, and observing basic autoscaling behavior under load.
@@ -97,10 +109,7 @@ Check branches:
 git branch -a
 ```
 
-Each branch corresponds to a different agent persona:
-
-* [kubectl-agent](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/kubectl-agent)
-* [markdown-agent](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/markdown-agent)
+Each branch corresponds to a different agent persona
 
 Switch to one of the branch:
 
