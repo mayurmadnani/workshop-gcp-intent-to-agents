@@ -23,6 +23,9 @@
         =%%%%%%-      .-==.      -==:             
                                   
 ```
+## Demo
+
+https://github.com/user-attachments/assets/ccac924a-74f9-42ef-acb2-5083e364f4b7
 
 > 🧠 Intent-to-Agent Implementations
 
