@@ -97,10 +97,17 @@ Check branches:
 git branch -a
 ```
 
+> 🧠 Intent-to-Agent Implementations*
+
 Each branch corresponds to a different agent persona:
 
-* [kubectl-agent](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/kubectl-agent)
-* [markdown-agent](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/markdown-agent)
+| Agent Name      | Purpose                          | Description                                                                 | GitHub Link                                                                 | Demo       |
+|-----------------|----------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------|------------|
+| KubeCommander   | Kubernetes CLI Generator         | Translates intent into kubectl commands for cluster operations.             | [KubeCommander](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/KubeCommander) | _Coming soon_ |
+| NoteNinja       | Markdown Generator               | Transforms prompts into clean, structured Markdown content.                 | [NoteNinja](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/NoteNinja) | _Coming soon_ |
+| TicketTuner     | Jira Ticket Generator            | Crafts structured Jira tickets from task descriptions or bug reports.       | [TicketTuner](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/TicketTuner) | https://github.com/user-attachments/assets/198ab678-b45f-4260-831f-f83fe4b6dd09 |
+| SQLSense        | Text to SQL                      | Converts natural language into SQL queries for data exploration.            | [SQLSense](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/SQLSense) | _Coming soon_ |
+| PatternPilot    | Regex Generator                  | Converts natural language patterns into regular expressions.                | [PatternPilot](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/PatternPilot) | _Coming soon_ |
 
 Switch to one of the branch:
 
