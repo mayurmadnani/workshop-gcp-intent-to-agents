@@ -24,6 +24,18 @@
                                   
 ```
 
+> 🧠 Intent-to-Agent Implementations
+
+
+| Agent Name      | Purpose         | Description     | Agent Branch                        |
+|-----------------|-----------------|-----------------|-----------------------------|
+| KubeCommander   | Kubernetes CLI Generator         | Translates intent into kubectl commands for cluster operations.             | [KubeCommander](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/KubeCommander) | 
+| NoteNinja       | Markdown Generator               | Transforms prompts into clean, structured Markdown content.                 | [NoteNinja](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/NoteNinja) | 
+| TicketTuner     | Jira Ticket Generator            | Crafts structured Jira tickets from task descriptions or bug reports.       | [TicketTuner](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/TicketTuner) | 
+| SQLSense        | Text to SQL                      | Converts natural language into SQL queries for data exploration.            | [SQLSense](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/SQLSense) | 
+| PatternPilot    | Regex Generator                  | Converts natural language patterns into regular expressions.                | [PatternPilot](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/PatternPilot) | 
+
+
 ## 1. Introduction
 
 In this lab, you will deploy a production-ready **Agent Development Kit (ADK)** agent connected to a Gemma-family model backend on **Google Cloud Run**. The focus is on critical deployment patterns: setting up Cloud Run services, integrating model backends with ADK agents, and observing basic autoscaling behavior under load.
@@ -97,17 +109,7 @@ Check branches:
 git branch -a
 ```
 
-> 🧠 Intent-to-Agent Implementations*
-
-Each branch corresponds to a different agent persona:
-
-| Agent Name      | Purpose                          | Description                                                                 | GitHub Link                                                                 | Demo       |
-|-----------------|----------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------|------------|
-| KubeCommander   | Kubernetes CLI Generator         | Translates intent into kubectl commands for cluster operations.             | [KubeCommander](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/KubeCommander) | _Coming soon_ |
-| NoteNinja       | Markdown Generator               | Transforms prompts into clean, structured Markdown content.                 | [NoteNinja](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/NoteNinja) | _Coming soon_ |
-| TicketTuner     | Jira Ticket Generator            | Crafts structured Jira tickets from task descriptions or bug reports.       | [TicketTuner](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/TicketTuner) | https://github.com/user-attachments/assets/198ab678-b45f-4260-831f-f83fe4b6dd09 |
-| SQLSense        | Text to SQL                      | Converts natural language into SQL queries for data exploration.            | [SQLSense](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/SQLSense) | _Coming soon_ |
-| PatternPilot    | Regex Generator                  | Converts natural language patterns into regular expressions.                | [PatternPilot](https://github.com/mayurmadnani/workshop-gcp-intent-to-agents/tree/PatternPilot) | _Coming soon_ |
+Each branch corresponds to a different agent persona
 
 Switch to one of the branch:
 
